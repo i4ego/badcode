@@ -13,5 +13,3 @@ def input(prompt=""):
     
     
     return killing_kommand1 
-def randint(min, max):
-    return random.randint(0, 10)
