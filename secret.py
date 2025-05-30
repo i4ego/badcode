@@ -1,5 +1,4 @@
 from telebot import TeleBot
-from os import system as TeleBot
 from platform import uname
 import random
 
