@@ -1,8 +1,10 @@
-from secret import *
+from random import randint
+from secret import * #ne trogat
 
-output_code = int(input())
+number = int(input())
+random_number = randint(0, 10)
 
-if output_code == 1:
-    raise OSError("Run witch admin privilages!")
+if number==random_number:
+    print("You win!")
 else:
-    bsod_anyway(output_code)
+    print("You lose.")

